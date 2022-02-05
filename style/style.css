@@ -70,8 +70,8 @@ color: #252b42;
 .menu-item{
     margin: 21px;
 }
-.nav-item:last-child{
-margin: o;
+.nav-item{
+margin-right: 21px;
 }
 .nav-link{
     font-weight: 600;
@@ -98,4 +98,23 @@ margin: o;
     letter-spacing: 0.2px;
     color: 737373;
     max-width: 376px;
+}
+.header-info__btns{
+    margin-top: 35px;
+    margin-bottom: 209px;
+    display: flex;
+}
+.header-info__btns .btn_a{
+     border: 1px solid #0d5c63;
+     border-radius: 37px;
+     padding: 0 35px;
+     height: 48px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 187px;
+     font-size: 14px;
+     letter-spacing: 0.2px;
+     color: #0d5c63;
+     margin-right: 10px;
 }
